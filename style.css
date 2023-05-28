@@ -1,0 +1,163 @@
+/* body color and font are set below */
+body{
+   font-family: sans-serif;
+   background-color: #B79CED;
+}
+
+/* below is styling and positioning of stopwatch container */
+#stopwatch {
+   position: absolute;
+   top: 25%;
+   left: 7%;
+   height: 400px;
+   width: 900px;
+   border: 4px solid black;
+   border-radius: 64px;
+   transform: translate(7px, -100px);
+   background-color: #957FEF;
+}
+
+/* below is the stylingscreen in which time will be displayed */
+#display{
+   top: 11%;
+   position: absolute;
+   height: 34%;
+   width: 74%;
+   background-color: #f4e1c8;
+   left: 13%;
+   border-radius: 63px;
+   border: 2px solid goldenrod;
+}
+
+/* below is styling for how and where, will the minute and second be shown */
+.time{
+   position: relative;
+   top: 27%;
+   font-size: 2.5rem;
+   left: 30%;
+   margin: 10px;
+}
+
+/* below is a styling( placing the buttons, styling, etc) for start, stop, and reset button */
+#contain{
+   position:absolute;
+   top: 56%;
+   left: 13%;
+   
+}
+
+#start{
+   position: relative;
+   top: 56%;
+   left: 23%;
+   background-color: #B79CED;
+   transform: translate(-60px,-10px);
+   margin: 41px 41px 0px 41px;
+   border: 2px solid black;
+   padding: 17px;
+   font-weight: 900;
+   border-radius: 12px;
+   font-size: 1rem;  
+}
+
+#start:hover{
+   background-color: #b8aaef;
+   cursor: pointer;
+}
+
+/* below styling makes the button look like it is clicked */
+#start:active{
+  background-color:#8267ed ;
+}
+
+#stop{
+   position: relative;
+   top: 56%;
+   left: 23%;
+   background-color: #B79CED;
+   transform: translate(-60px,-10px);
+   margin: 41px 41px 0px 41px;
+   border: 2px solid black;
+   padding: 17px;
+   font-weight: 900;
+   border-radius: 12px;
+   font-size: 1rem;  
+}
+
+#stop:hover{
+   background-color: #b8aaef;
+   cursor: pointer;
+}
+
+/* below styling makes the button look like it is clicked */
+#stop:active{
+  background-color:#8267ed ;
+}
+
+#reset{
+   position: relative;
+   top: 56%;
+   left: 23%;
+   background-color: #B79CED;
+   transform: translate(-60px,-10px);
+   margin: 41px 41px 0px 41px;
+   border: 2px solid black;
+   padding: 17px;
+   font-weight: 900;
+   border-radius: 12px;
+   font-size: 1rem;  
+}
+
+#reset:hover{
+   background-color: #b8aaef;
+   cursor: pointer;
+}
+
+/* below styling makes the button look like it is clicked */
+#reset:active{
+  background-color:#8267ed ;
+}
+
+@media screen and (max-width: 1000px) {
+   
+   #stopwatch {
+   position: absolute;
+   top: 20%;
+   left: 15%;
+   height: 550px;
+   width: 300px;
+   }
+
+   #contain{
+   top: 50%; 
+   margin-left:25px;
+   }
+
+   #start{
+   margin-top:0px;
+   }
+
+   .time{
+   position: relative;
+   top: 32%;
+   font-size: 2.5rem;
+   left: 8%;
+   margin: 10px;
+   }
+
+   #reset{
+   margin-top:19px;
+   }
+
+   #stop{
+   margin-top:19px;
+   }
+
+   #display{
+   height: 150px;
+   width: 250px;
+   left: 8%;
+   border-radius: 30px;
+   }
+
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- creating a container for stopwatch-->
+    <div id="stopwatch">
+
+        <!-- display inside stopwatch where minutes and second will be shown -->
+       
+        <div id="display">
+            <span class="time" id="min">00m</span>
+            <span class="time">:</span>
+            <span class="time" id="sec">00s</span>
+        </div>
+
+        <!-- three buttons as start,reset and stop are made -->
+        <div id="contain">
+        <button id="start" class="buttons" onclick="start();">START</button>
+        <button id="reset" class="buttons" onclick="reset();">RESET</button>
+        <button id="stop" class="buttons" onclick="stop();">STOP</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
